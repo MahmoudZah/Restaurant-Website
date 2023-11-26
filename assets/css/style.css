@@ -1,0 +1,233 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+nav{
+  z-index: 2;
+}
+.nav-a{
+  color: #8b8a8f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.active{
+  border-bottom: 2px solid #c73435;
+}
+
+/* home page */
+.bg-img{
+  object-fit: cover;
+  height: 796px;
+}
+@media (max-width:1240px) {
+  .bg-img{
+    object-fit: cover;
+    height: 556px;
+  }
+}
+.dark-layout{
+  background-color: rgba(0, 0, 0, 0.452);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  
+}
+.rs-img{
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+  border-radius: 15px;
+}
+.gradient-layout{
+  background: rgb(191,38,39);
+  background: linear-gradient(90deg, rgba(191,38,39,1) 13%, rgba(255,255,255,0) 100%);
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  border-radius: 15px;
+}
+.section_1{
+  border-radius: 20px;
+  top: 40%;
+  background-color: rgb(247, 247, 247);
+}
+.search{
+  top: 25%;
+} 
+.search input:focus{
+  box-shadow: none !important;
+  border: 1px solid #ced4da;
+}
+
+/* swiper */
+
+swiper-container {
+  width: 100%;
+  height: fit-content;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.wum_btn{
+  background-color: #c73435 !important;
+  color: white !important;
+  border-radius: 10px;
+  padding: 10px 20px;
+
+}
+.wum_btn:hover{
+  background-color: #c73435;
+  color: white;
+  border-radius: 10px;
+}
+
+/**/
+.color-1{
+  color: #444444;
+}
+.color-2{
+  color:#c73435 ;
+}
+.bg-1{
+  background-color:#c73435 ;
+}
+.food_card{
+  border-radius: 25px ;
+}
+.food_card img{
+  border-radius: 25px ;
+  border-bottom-left-radius: 0px ;
+  border-bottom-right-radius: 0px ;
+}
+.add_btn{
+  border-radius: 10px;
+  background-color: #c73435 !important;
+  color: white !important;
+}
+.add_btn:hover{
+  background-color: #c73435;
+  color: white;
+}
+@media (max-width:382px){
+  .food_card .card-body h5{
+    font-size: 15px;
+  }
+}
+.explore_menu{
+  border: 1px solid #c73435 !important;
+  color: #c73435 !important;
+  background-color: transparent !important;
+  border-radius: 10px;
+  transition: 0.2s all;
+}
+.explore_menu:hover{
+  border: 1px solid #c73435 !important;
+  color: white !important;
+  background-color: #c73435 !important;
+}
+.ctd_btn{
+  border: 1px solid white !important;
+  color: white !important;
+  background-color: transparent !important;
+  border-radius: 10px;
+  transition: 0.2s all;
+}
+.ctd_btn:hover{
+  border: 1px solid #c73435 !important;
+  color: white !important;
+  background-color: #c73435 !important;
+}
+.gradient_layout_text{
+  top: 0%;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card2{
+  background-color: #f3eeee !important;
+  border: 1px solid #e4e0e0 !important;
+}
+#home_footer{
+  margin-top: 150px;
+  background-color: #331312;
+  padding-top: 150px;
+  padding-bottom: 75px;
+}
+.footer-list a{
+  color: #968787;
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer-list a:hover{
+  color: white;
+}
+.contact_section_cont{
+  transform: translate(-50%, -76%);
+  z-index: 1000;
+  position: absolute;
+  left: 50%;
+  margin-top: 200px;
+}
+.contact_section{
+  background-color: #c73435;
+  border-radius: 10px;
+}
+.contact_btn{
+  border-radius: 10px;
+  color: #c73435 !important;
+}
+
+/*----*/
+.menu_body{
+  background-color: rgb(231, 231, 231);
+}
+.menu-bg-img{
+  object-fit: cover;
+  height: 496px;
+}
+@media (max-width:1240px) {
+  .menu-bg-img{
+    object-fit: cover;
+    height: 356px;
+  }
+}
+.menu_section{
+  top: 30%;
+  margin-top: -101px;
+  position: absolute;
+}
+.offcanvas_btn:focus{
+background-color: #c73435 !important;
+color: white !important;
+}
+.lh-col{
+  background-color: white;
+  border-radius: 20px;
+}
+.rh-col{
+  background-color:   rgb(250 250 250);
+  border-radius: 20px;
+}
+.fs-7{
+  font-size: 12px;
+}
+.lh-menus{
+  border-bottom: 2px solid rgb(231, 231, 231);
+  padding-top: 20px;
+}
+.rh-header{
+  border-bottom: 1px solid rgb(231, 231, 231)
+  ;  
+}
